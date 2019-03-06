@@ -23,9 +23,10 @@ int main(void) {
         }
         i++;
     }
-    for(int i = 0; i < 100; i++){
-        cout << p[i] << endl;
-    }
+    cout << p[9] << endl;
+    cout << 9[p] << endl;
+    cout << *(p + 9) << endl;
+    cout << *(9 + p) << endl;
     return 0;
 }
 
